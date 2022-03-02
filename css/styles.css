@@ -1,0 +1,237 @@
+body {
+    background:#eee;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding-left:250px;
+    background:#fff;
+    box-shadow:0 0 5px rgba(0,0,0,.1);
+}
+
+.header {
+    float: left;
+    margin-left: -250px;
+    width: 250px;
+    background: #f5f5f5;
+    border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.search {
+    padding: 1rem;
+    background: #f39c12;
+}
+
+.search-input {
+    padding: .75rem 1rem;
+    border: none;
+    font-size:1.2em;
+    width:100%;
+    border-radius:2rem;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom:3px solid #f39c12;
+    padding-bottom:1rem;
+}
+
+.nav {
+    padding: 2rem;
+}
+
+.nav-links {
+    margin-top: 2rem;
+}
+
+.nav-item {
+    font-size: 1.2rem;
+}
+
+.page {
+    padding: 5rem 2rem 2rem;
+}
+
+.content-focus {
+    border-bottom: 3px solid #ccc;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content-titles {
+    width: 50%;
+    font-size: 3em;
+    margin-right: 2rem;
+}
+
+.content-title {
+    max-width: 450px;
+    margin-left: auto;
+}
+
+.content-picture {
+    width: 50%;
+    position: relative;
+}
+
+.rounded {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.picture {
+    width: 100%;
+    display: block;
+}
+
+.content-quote {
+    border-top: 3px solid #ccc;
+    margin-top: 2rem;
+}
+
+.content p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.content h3 {
+    font-size: 1.7em;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content ol {
+    list-style-type: decimal;
+    font-size: 1.1em;
+    margin-left: 1.5em;
+    line-height: 1.5;
+}
+
+.articles {
+    margin-top: 5rem;
+}
+
+.articles-container {
+    margin-top: 2rem;
+}
+
+.card {
+    margin-bottom: 2rem;
+}
+
+.card-title {
+    margin: 2rem 1rem;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.card-content {
+    padding: 0 1rem;
+}
+
+.card-content p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.card-footer {
+    margin: 2rem 1rem;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1.2em;
+}
+
+.footer {
+    background: #111;
+    padding: 4rem 2rem;
+    text-align: center;
+    color: #aaa;
+}
+
+/*
+    Styles pour les écrans de moins de 1200px de large :
+*/
+/*
+
+    .content-focus {
+        display:block;
+    }
+
+    .content-titles {
+        width: auto;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .content-title {
+        max-width: none;
+    }
+
+    .content-picture {
+        width: auto;
+    }
+
+    .articles-container {
+      
+        display:block;
+    }
+    .card {
+        width:auto;
+    }
+
+*/
+
+/*
+    Styles pour les écrans de moins de 900px de large :
+*/
+/*
+    .header {
+        position:static;
+        width:auto;
+        float:none;
+        margin-left:0;
+    }
+
+    .container {
+        width:96%;
+        padding-left:0;
+    }
+
+    .page {
+        padding: 0 1rem;
+    }
+
+    .nav {
+        padding: 1rem;
+    }
+
+    .nav .title {
+        display:none;
+    }
+
+    .nav-links {
+        margin-top:0;
+    }
+
+    .nav-item {
+        width:calc(33.3333% - .5rem);
+        text-align: center;
+    }
+
+    .nav-item-link {
+        margin-bottom: 0;
+    }
+
+*/
