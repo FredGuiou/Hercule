@@ -1,5 +1,19 @@
+@font-face {
+    font-family: "Asap-Bold";
+    src: url("fonts/Asap-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Asap-Regular";
+    src: url("fonts/Asap-Regular.ttf") format("truetype");
+}
+
+
+
+
 body {
     background:#eee;
+    font-family: "Asap-Regular";
 }
 
 * {
@@ -40,6 +54,7 @@ body {
     font-weight: bold;
     border-bottom:3px solid #f39c12;
     padding-bottom:1rem;
+    font-family: "Asap-Bold";
 }
 
 .nav {
@@ -76,6 +91,7 @@ body {
 .content-title {
     max-width: 450px;
     margin-left: auto;
+    font-family: "Asap-Bold";
 }
 
 .content-picture {
@@ -133,6 +149,7 @@ body {
     margin: 2rem 1rem;
     font-size: 1.7em;
     font-weight: bold;
+    font-family: "Asap-Bold";
 }
 
 .card-content {
