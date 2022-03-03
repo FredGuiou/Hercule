@@ -63,10 +63,20 @@ body {
 
 .nav-links {
     margin-top: 2rem;
+
 }
 
 .nav-item {
     font-size: 1.2rem;
+    text-transform: uppercase;
+    background-color:rgb(214, 214, 214);
+    border-radius: 8px;
+    padding: 8%;
+    margin-bottom: 2%;
+}
+
+.nav-accueil{
+    border-bottom: 2px solid #f39c12;
 }
 
 .page {
