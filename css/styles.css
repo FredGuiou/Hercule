@@ -96,12 +96,26 @@ body {
     width: 50%;
     font-size: 3em;
     margin-right: 2rem;
+    margin-left: 8rem;
+    text-align: right;
+    border-top: 3px solid #f39c12;
 }
 
 .content-title {
     max-width: 450px;
     margin-left: auto;
     font-family: "Asap-Bold";
+}
+
+.content-title--main{
+    margin-bottom: 8%;
+    padding-top: 8%;
+    font-size: 0.8em;
+}
+
+.content-title--sub{
+    color: rgb(214, 214, 214);
+    font-size: 0.6em;
 }
 
 .content-picture {
