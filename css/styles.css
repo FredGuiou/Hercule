@@ -77,9 +77,16 @@ body {
     margin-bottom: 2%;
 }
 
-.nav-item-link:hover{
+.nav-item:hover{
     background-color: #f39c12;
+    transition-duration: 300ms;
+    color: white;
 }
+
+.nav-item:active{
+    color:#111;
+}
+
 
 .nav-accueil{
     border-bottom: 2px solid #f39c12;
@@ -208,20 +215,14 @@ body {
     font-family: "Asap-Bold";
     border: 3px solid #f39c12;
     margin-right: 5%;
-    border-radius: 35%;
+    border-radius: 99rem;
 }
 
-@keyframes bnt-anim {
-    from{background-color: #f39c12;}
-    to{background-color: #ccc;}
-}
+
 .btn:hover{
     color: white;
     background-color: #f39c12;
-    animation-name: btn-anim;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-duration: 0.3s;
+    transition-duration: 300ms;
 }
 
 .footer {
@@ -234,12 +235,18 @@ body {
 .picture-desc{
     background-color: #0000003d;
     color: white;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    left: 1%;
+    padding: 1% 0 1% 0;
 }
 
 /*
     Styles pour les écrans de moins de 1200px de large :
 */
-/*
+
+@media screen and (max-width:1200px){
 
     .content-focus {
         display:block;
@@ -259,20 +266,21 @@ body {
         width: auto;
     }
 
-    .articles-container {
-      
+    .articles-container {      
         display:block;
     }
     .card {
         width:auto;
     }
+}
 
-*/
 
 /*
     Styles pour les écrans de moins de 900px de large :
 */
-/*
+
+@media screen and (max-width:900px){
+
     .header {
         position:static;
         width:auto;
@@ -299,15 +307,22 @@ body {
 
     .nav-links {
         margin-top:0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .nav-item {
         width:calc(33.3333% - .5rem);
         text-align: center;
+        padding: 3%;
     }
 
     .nav-item-link {
         margin-bottom: 0;
     }
 
-*/
+    .content-titles {
+        margin-left: 0;
+    }
+}
